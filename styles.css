@@ -1,0 +1,54 @@
+html, body {
+  height: 100%
+}
+
+.menu-header-area {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #363232;
+  height: 15vh;
+  width: 100%;
+  min-width: 50%;
+}
+.cards-section-area {
+  background-color: #e0e0e0;
+  height: 80vh;
+  width: 100%;
+}
+.button-area {
+  display:flex;
+  flex-direction: row;
+  flex-grow: 4;
+  padding-top: 70px;
+  padding-left: 50px;
+  margin-left: 80px;
+  height:
+  width: 75%;
+}
+.button1,.button2,.button3 {
+  display: flex;
+  font-size: 18px;
+  margin-right: 65px;
+  background-color: #363232;
+  border-color: #363232;
+  color: grey;
+}
+.div1 {
+  display: flex;
+
+}
+
+.logo {
+  font-size: 60px;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-right: 100px;
+  color: white;
+}
+
+.heading {
+  font-size: 50px;
+  padding-left: 30px;
+  background-color: #e0e0e0;
+  color: gray;
+}
