@@ -1,14 +1,30 @@
 html, body {
   height: 100%
 }
+.menu-section {
+  background-color: #363232;
+}
+.secondary-menu-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-account-container {
+  display: flex;
+}
+
+.button4 {
+  
+}
 
 .menu-header-area {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   background-color: #363232;
   height: 15vh;
   width: 100%;
   min-width: 50%;
+  align-items: center;
 }
 .cards-section-area {
   background-color: #e0e0e0;
@@ -18,7 +34,6 @@ html, body {
 .button-area {
   display:flex;
   flex-direction: row;
-  flex-grow: 4;
   padding-top: 70px;
   padding-left: 50px;
   margin-left: 80px;
@@ -40,9 +55,6 @@ html, body {
 
 .logo {
   font-size: 60px;
-  padding-top: 5px;
-  padding-left: 10px;
-  margin-right: 100px;
   color: white;
 }
 
