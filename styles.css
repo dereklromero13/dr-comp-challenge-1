@@ -7,14 +7,25 @@ html, body {
 .secondary-menu-area {
   display: flex;
   justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 72px;
 }
 
 .user-account-container {
   display: flex;
 }
 
-.button4 {
-  
+.admin-button {
+  background-color: #363232;
+  padding-right: 10px;
+  border-color: #363232;
+  color: teal;
+  font-size: 14px;
+}
+
+.menu-icon-image {
+  width: 25px;
+  height: 25px;
 }
 
 .menu-header-area {
@@ -34,11 +45,8 @@ html, body {
 .button-area {
   display:flex;
   flex-direction: row;
-  padding-top: 70px;
+  padding-top: 10px;
   padding-left: 50px;
-  margin-left: 80px;
-  height:
-  width: 75%;
 }
 .button1,.button2,.button3 {
   display: flex;
@@ -47,6 +55,7 @@ html, body {
   background-color: #363232;
   border-color: #363232;
   color: grey;
+  font-family: serif;
 }
 .div1 {
   display: flex;
@@ -54,8 +63,10 @@ html, body {
 }
 
 .logo {
-  font-size: 60px;
+  font-size: 70px;
   color: white;
+  padding-right: 70px;
+  font-family: serif;
 }
 
 .heading {
@@ -63,4 +74,6 @@ html, body {
   padding-left: 30px;
   background-color: #e0e0e0;
   color: gray;
+  margin: 0px;
+  padding-top: 35px;
 }
