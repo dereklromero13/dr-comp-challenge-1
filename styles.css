@@ -77,3 +77,33 @@ html, body {
   margin: 0px;
   padding-top: 35px;
 }
+
+.cards-section {
+  display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 2%;
+    background-color: #e0e0e0;
+}
+
+.cards-section-individual {
+    border: 1px solid #6E646B;
+    display: flex;
+    flex-direction: column;
+    font: 20px 'Open Sans';
+    justify-content: space-between;
+    margin: 5px 5px;
+    height: 450px;
+    width: 325px;
+}
+
+.images {
+  height: 100%;
+  width: 100%;
+}
+
+.card-top-image {
+  height: 40%;
+  border-bottom: 1px;
+}
